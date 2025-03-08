@@ -1,0 +1,399 @@
+/**
+ * Font Protection for Media Offloader - Admin CSS
+ */
+
+/* General Layout */
+.fontprotect-wrap {
+    margin: 20px 0;
+}
+
+.fontprotect-content {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-top: 20px;
+}
+
+.fontprotect-card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* Dashboard Styles */
+.fontprotect-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.fontprotect-stat-card {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.fontprotect-stat-icon {
+    font-size: 30px;
+    margin-right: 15px;
+    color: #007cba;
+}
+
+.fontprotect-stat-content {
+    flex: 1;
+}
+
+.fontprotect-stat-content h3 {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    color: #23282d;
+}
+
+.fontprotect-stat-number {
+    font-size: 24px;
+    font-weight: 600;
+    color: #23282d;
+}
+
+.fontprotect-warning .fontprotect-stat-icon,
+.fontprotect-warning .fontprotect-stat-number {
+    color: #d63638;
+}
+
+.fontprotect-success .fontprotect-stat-icon,
+.fontprotect-success .fontprotect-stat-number {
+    color: #00a32a;
+}
+
+.fontprotect-dashboard-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.fontprotect-recent-activity {
+    margin-top: 30px;
+}
+
+.fontprotect-view-all {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.fontprotect-how-it-works-content {
+    margin-top: 15px;
+}
+
+/* Log Styles */
+.fontprotect-logs-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.fontprotect-logs-actions {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.fontprotect-log-filters {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fontprotect-log-export {
+    display: flex;
+    gap: 10px;
+}
+
+.fontprotect-log-level {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.fontprotect-log-level-info {
+    background-color: #f0f6fc;
+    color: #0866c6;
+}
+
+.fontprotect-log-level-success {
+    background-color: #edfaef;
+    color: #00a32a;
+}
+
+.fontprotect-log-level-warning {
+    background-color: #fcf9e8;
+    color: #bd8600;
+}
+
+.fontprotect-log-level-error {
+    background-color: #fcf0f1;
+    color: #d63638;
+}
+
+.fontprotect-logs-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.fontprotect-logs-table th,
+.fontprotect-logs-table td {
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.fontprotect-logs-table th {
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.fontprotect-log-details {
+    max-width: 400px;
+    overflow-wrap: break-word;
+    font-size: 13px;
+}
+
+.fontprotect-log-info {
+    border-left: 4px solid #0866c6;
+}
+
+.fontprotect-log-success {
+    border-left: 4px solid #00a32a;
+}
+
+.fontprotect-log-warning {
+    border-left: 4px solid #bd8600;
+}
+
+.fontprotect-log-error {
+    border-left: 4px solid #d63638;
+}
+
+/* Settings Styles */
+.fontprotect-builder-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.fontprotect-builder {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.fontprotect-builder img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.fontprotect-builder h3 {
+    margin: 0 0 10px 0;
+}
+
+.fontprotect-status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.fontprotect-status-active {
+    background-color: #edfaef;
+    color: #00a32a;
+}
+
+.fontprotect-status-inactive {
+    background-color: #f5f5f5;
+    color: #72777c;
+}
+
+.fontprotect-format-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.fontprotect-format {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.fontprotect-format-icon {
+    background-color: #f0f6fc;
+    color: #0866c6;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    font-weight: bold;
+}
+
+.fontprotect-format-name {
+    font-size: 13px;
+}
+
+/* Tools Styles */
+.fontprotect-tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.fontprotect-tool {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.fontprotect-tool-icon {
+    font-size: 32px;
+    color: #0866c6;
+    margin-bottom: 15px;
+}
+
+.fontprotect-tool h3 {
+    margin: 0 0 10px 0;
+}
+
+.fontprotect-tool p {
+    margin-bottom: 15px;
+    min-height: 40px;
+}
+
+.fontprotect-troubleshooting {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.fontprotect-system-info textarea {
+    width: 100%;
+    font-family: monospace;
+    margin-bottom: 10px;
+}
+
+/* Debug Information */
+.fontprotect-debug-info {
+    margin-top: 30px;
+}
+
+.fontprotect-debug-table {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.fontprotect-debug-file {
+    margin-bottom: 20px;
+    border: 1px solid #e5e5e5;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.fontprotect-debug-file h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+}
+
+/* Notices */
+.fontprotect-notice {
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.fontprotect-notice-info {
+    background-color: #f0f6fc;
+    border-left: 4px solid #0866c6;
+}
+
+.fontprotect-notice-success {
+    background-color: #edfaef;
+    border-left: 4px solid #00a32a;
+}
+
+.fontprotect-notice-warning {
+    background-color: #fcf9e8;
+    border-left: 4px solid #bd8600;
+}
+
+.fontprotect-notice-error {
+    background-color: #fcf0f1;
+    border-left: 4px solid #d63638;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 782px) {
+    .fontprotect-stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .fontprotect-tools-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .fontprotect-logs-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .fontprotect-logs-actions {
+        margin-top: 15px;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .fontprotect-log-filters {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    
+    .fontprotect-log-filters input,
+    .fontprotect-log-filters select,
+    .fontprotect-log-filters button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .fontprotect-log-export {
+        width: 100%;
+    }
+    
+    .fontprotect-log-export button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
